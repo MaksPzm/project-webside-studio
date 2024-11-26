@@ -152,6 +152,7 @@ body {
 .wrapper__block-one_content-two {
     display: flex;
     flex-flow: row wrap;
+    position: relative;
 }
 
 .wrapper__block-one_content-two_elem1 {
@@ -196,7 +197,7 @@ body {
     color: rgba(227, 184, 115, 1);
 }
 
-.wrapper__text-content {
+.wrapper__text-content_din {
     font: 13px / 21.28px 'Nunito Sans', sans-serif;
     margin: 0;
     padding-top: 9px;
@@ -234,9 +235,93 @@ body {
 
 
 
+.wrapper__block-one_content-two_elem1__description_arrow div:nth-of-type(1) {
+    background-color: rgba(255, 255, 255, 1);
+}
 
 
 
+.wrapper__block-one_content-three {
+    width: 679px;
+    min-height: 550px;
+    margin-top: 107px;
+    margin-right: 134.55px;
+    margin-left: 50px;
+}
+
+.wrapper__block-one_content-three_menu_list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper__block-one_content-three_menu_ilem:not(:last-child) {
+    margin-right: 60.5px;
+}
+
+.wrapper__block-one_content-three_menu_link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+    font: 14px / 19.4px 'Yeseva One', serif;
+    
+}
+
+.wrapper__block-one_content-three_menu_link.active {
+    color: rgba(227, 184, 115, 1);
+    border-bottom: solid 1px rgba(227, 184, 115, 1);
+    padding-bottom: 6px;
+}
+
+.wrapper__block-one_content-three_menu_link:hover {
+    color: rgba(227, 184, 115, 1);
+}
+
+.wrapper__block-one_content-three_bgd {
+    margin: 0;
+    padding-top: 45.36px;
+}
+
+
+
+.wrapper__block-one_on-conrol {
+    width: 178px;
+    max-height: 66.76;
+    margin: 85px auto 257.21px;
+}
+
+.wrapper__block-one_on-conrol span {
+    font: 20px / 27.72px 'Yeseva One', serif;
+    color: rgba(255, 255, 255, 1);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrapper__block-one_on-conrol_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12.79px;
+}
+
+.wrapper__block-one_content-four {
+    position: absolute;
+    
+    min-width: 817px;
+    
+    min-height: 433px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 880px;
+    left: 311.45px;
+    background: url(images/home/png/image\ 3.png) center center;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.15);
+
+}
+
+.wrapper__block-one_content-four
 
 @media screen and (max-width: 375px) {
     body {
