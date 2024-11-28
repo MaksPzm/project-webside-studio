@@ -87,7 +87,7 @@ body {
 .wrapper__block-one_content {
     width: 1440px;
     height: 707px;
-    margin: 0;
+    margin: 0 auto;
     background: url(images/home/png/image1.png);
 }
 
@@ -95,7 +95,6 @@ body {
     width: 676.11px;
     height: 305px;
     padding: 194px 0 208px 134px;
-    
 }
 
 .wrapper__title {
@@ -147,17 +146,22 @@ body {
     background-color: rgba(227, 184, 115, 1);
 }
 
+.wrapper__block-one_btn-mobile {
+    display: none;
+}
+
 
 
 .wrapper__block-one_content-two {
+    width: 1440px;
     display: flex;
     flex-flow: row wrap;
     position: relative;
+    margin: 0 auto;
 }
 
 .wrapper__block-one_content-two_elem1 {
     width: 442px;
-    min-height: 400px;
     margin-top: 176.36px;
     margin-left: 134.45px;
 }
@@ -175,6 +179,10 @@ body {
     font: 14px / 26.73px 'Nunito Sans', sans-serif;
     margin: 0;
     padding-top: 34px;
+}
+
+.wraperr__mobile_block {
+    display: none;
 }
 
 .wrapper__block-one_content-two_elem1__description {
@@ -321,7 +329,6 @@ body {
 
 }
 
-.wrapper__block-one_content-four
 
 @media screen and (max-width: 375px) {
     body {
@@ -351,6 +358,156 @@ body {
         color: rgba(255, 255, 255, 1);
         text-decoration: none;
         font-style: normal;
+    }
+
+    
+    /*________main___________*/
+
+    .wrapper__block-one_content {
+        width: 375px;
+        height: 476px;
+        background: url(images/mobile/png/fon-b1.png);
+        position: relative;
+    }
+
+    .wrapper__block-one_content::after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        top: 0;
+        position: absolute;
+        background: rgba(0, 0, 0, 0.7);
+        mix-blend-mode: multiply;
+        z-index: 2;
+    }
+
+    .wrapper__block-one_content_block1 {
+        position: relative;
+        z-index: 3;
+        width: 339px;
+        height: 60px;
+        padding: 85px 18px 0;
+    }
+
+    .br_home {
+        display: none;
+    }
+
+    .wrapper__title {
+        font: 23px / 30.55px 'Yeseva One', serif;
+    }
+
+    .wrapper__text {
+        width: 339px;
+        font: 14px / 19.02px 'Nunito Sans', sans-serif;
+        padding-top: 16px;
+    }
+
+    .block1__btn {
+        width: 338.61px;
+        height: 51px;
+        margin: 0;
+    }
+
+    .wrapper__block-one_btn-left {
+        margin-top: 68px;
+    }
+
+    .wrapper__block-one_btn-right {
+        display: none;
+    }
+
+    .wrapper__block-one_btn-mobile {
+        display: inline;
+        margin-top: 26px;
+    }
+
+    .wrapper__block-one_content-two {
+        width: 340px;
+        flex-flow: column wrap;
+        margin: 0 18px;
+    }
+
+    .wrapper__block-one_content-two_elem1 {
+        max-width: 340px;
+        margin: 0;
+        margin-top: 36px;
+    }
+
+    .elem1__title-h2 {
+        text-align: center;
+        margin: 0 auto;
+        font: 22px / 30.49px 'Yeseva One', serif;
+    }
+
+    .wrapper__text-content { 
+        font: 11px / 17.43px 'Nunito Sans', sans-serif;
+        text-align: center;
+    }
+
+    .wrapper__block-one_content-two_elem1__text {
+        width: 311px;
+        height: 86px;
+        padding: 0;
+        margin: 22px 14px 0;
+    }
+
+    .wraperr__mobile_block {
+        display: block;
+        width: 340px;
+        height: 241.55px;
+        margin-top: 36px;
+        position: relative;
+    }
+
+    .wraperr__mobile_block_ar-Left {
+        position: absolute;
+        z-index: 2;
+        top: 103px;
+        left: 14px;
+    }
+
+    .wraperr__mobile_block_ar-Right {
+        position: absolute;
+        z-index: 2;
+        top: 103px;
+        right: 14px;
+    }
+
+    .wrapper__block-one_content-two_elem1__description {
+        width: 341px;
+        height: 145px;
+    }
+
+    .elem1__title-h3 {
+        font: 14px / 19.4px 'Yeseva One', serif;
+    }
+
+    .wrapper__block-one_description-one {
+        width: 140px;
+    }
+
+    .wrapper__text-content_din {
+        font: 11px / 14.94px 'Nunito Sans', sans-serif;
+        padding-top: 11px;
+    }
+
+    .wrapper__block-one_content-two_elem1__description_arrow {
+        display: none;
+    }
+
+    .wrapper__block-one_content-three {
+        display: none;
+    }
+
+    .wrapper__block-one_on-conrol {
+        width: 224px;
+        text-align: center;
+    }
+
+    .wrapper__block-one_on-conrol span {
+        font: 22px / 30.49px 'Yeseva One', serif;
+        
     }
 }
 
