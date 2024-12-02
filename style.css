@@ -325,7 +325,8 @@ body {
     top: 880px;
     left: 311.45px;
     background: url(images/home/png/image\ 3.png) center center;
-    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.15);
+    background-size: 115% 140%;
+    
 }
 
 .wrapper__block-one_content-four_img-mobil {
@@ -344,10 +345,18 @@ body {
     border-radius: 30px;
 }
 
+.wrapper__block_two_text {
+    width: 681px;
+    height: 130.91px;
+    text-align: center;
+    margin: 0 auto;
+    font: 18px / 36.83px 'Nunito Sans', sans-serif;
+}
+
 .wrapper__block_two_form {
     width: 769px;
     height: 51px;
-    margin: 0 auto;
+    margin: 91.5px auto 0;
     display: flex;
     flex-wrap: wrap;
     gap: 49px;
@@ -381,13 +390,185 @@ body {
     font-style: normal;
 }
 
+.wrapper__block_two_form_checkbox {
+   max-width: 295.62px;
+   min-height: 18px;
+   margin: 33.24px auto 0; 
+   position: relative;
+}
 
-
-.wrapper__block_two_form_cbox,
 .wrapper__block_two_form_cbox_lab {
     font-size: 14px;
-    justify-self: center;
+    cursor: pointer;
 }
+
+.wrapper__block_two_form_cbox {
+    accent-color: rgba(227, 184, 115, 1);
+    cursor: pointer;
+}
+
+
+/*___types of repair____*/
+
+.wrapper__block_two_repair {
+    width: 257px;
+    margin: 147.85px auto 31px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper__block_two_repair > span {
+    font: 1.25rem / 1.73rem 'Yeseva One', serif;
+    color: rgba(24, 24, 24, 1);
+}
+
+.wrapper__block_two_repair_img {
+    width: 114px;
+    height: 28px;
+    margin-top: 13px;
+}
+
+
+/*____two_offr______*/
+
+.wrapper__block_two_offr {
+    max-width: 1236px;
+    height: 608px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+}
+
+.wrapper__block_two_offr_bloc {
+    width: 392px;
+    height: 608px;
+    position: relative;
+}
+
+.wrapper__block_two_offr_img {
+    width: 392px;
+    height: 421px;
+}
+
+.wrapper__block_two_offr_bloc-subBloc {
+    width: 330px;
+    height: 286px;
+    box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.03);
+    background-color: rgba(255, 255, 255, 1);
+    position: absolute;
+    top: 294px;
+    left: 31px;
+    z-index: 2;
+}
+
+.wrapper__block_two_offr_bloc-subBloc_title {
+    font: 400 1.125rem / 1.559rem 'Yeseva One', serif;
+    margin: 0;
+    padding-top: 25px;
+    padding-left: 34px;
+}
+
+.wrapper__block_two_offr_bloc-subBloc_list {
+    width: 267px;
+    height: 178px;
+    font: 0.81rem / 1.66rem 'Nunito Sans', sans-serif;
+    color: rgba(149, 149, 149, 1);
+    margin-top: 13px;
+    margin-left: 34px;
+    padding: 0;
+    list-style: none;
+}
+
+.wrapper__block_two_offr_bloc-subBloc_item {
+    position: relative;
+    padding-left: 10px;
+}
+
+.wrapper__block_two_offr_bloc-subBloc_item::before {
+    content: '•';
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.wrapper__block_two_offr_bloc_price {
+   width: 228px;
+   height: 54px;
+   background-color: rgba(227, 184, 115, 1);
+   box-shadow: 5px 5px 10px 0px rgba(227, 184, 115, 0.3);
+   position: absolute;
+   top: 555px;
+   left: 31px;
+   z-index: 3;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.wrapper__block_two_offr_bloc_price span {
+    text-transform: uppercase;
+    font: 400 1.125rem / 1.559rem 'Yeseva One', serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+/*___b_two-info____*/
+
+.wrapper__block_two_info {
+    width: 1440px;
+    height: 725px;
+    margin-top: 124px;
+    margin-left: 0;
+}
+
+.wrapper__block_two_info-elem {
+    width: 700px;
+    height: 645px;
+    background: url(images/home/png/image5.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.wrapper__block_two_info-circle {
+    max-width: 49.76px;
+    min-width: 49.76px;
+    max-height: 49.76px;
+    min-height: 49.76px;
+    border-radius: 50%;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(227, 184, 115, 1);
+    border: 8px solid rgba(255, 255, 255, 1);
+    box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.15);
+    font-size: 1.13rem;
+}
+
+.wrapper__block_two_info-circle span {
+    font: 1.13rem 'Yeseva One', serif;
+}
+
+.wrapper__block_two_info-elem_text {
+    width: 320px;
+    font: 0.875rem / 1.193rem 'Nunito Sans', sans-serif;
+    margin: 0;
+    padding-left: 8px;
+    
+}
+
+.wrapper__block_two_info-elem div {
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
 
 
 
