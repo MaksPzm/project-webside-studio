@@ -521,6 +521,10 @@ body {
     height: 725px;
     margin-top: 124px;
     margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 131px;
+    position: relative;
 }
 
 .wrapper__block_two_info-elem {
@@ -529,8 +533,8 @@ body {
     background: url(images/home/png/image5.png);
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: flex-end;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .wrapper__block_two_info-circle {
@@ -544,6 +548,10 @@ body {
     border: 8px solid rgba(255, 255, 255, 1);
     box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.15);
     font-size: 1.13rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 82px;
 }
 
 .wrapper__block_two_info-circle span {
@@ -551,24 +559,118 @@ body {
 }
 
 .wrapper__block_two_info-elem_text {
-    width: 320px;
+    width: 350px;
     font: 0.875rem / 1.193rem 'Nunito Sans', sans-serif;
     margin: 0;
     padding-left: 8px;
     
 }
 
-.wrapper__block_two_info-elem div {
-    width: 375px;
+.wrapper__block_two_info-elemItem {
+    width: 455px;
+    max-height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 50px;
+    margin-left: 75px;
+}
+
+.wrapper__block_two_info-user {
+    width: 506px;
+    height: 509px;
+    background-color: rgba(19, 19, 19, 1); 
+    color: rgba(255, 255, 255, 1);
+    align-self: center;
+}
+
+.wrapper__block_two_info-user_form {
+    width: 408px;
+    height: 244px;
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 auto;
+}
+
+.wrapper__block_two_info-user p {
+    width: 250px;
+    height: 47px;
+    color: rgba(255, 255, 255, 1);
+    margin: 28px auto 39px;
+    text-align: center;
+    font: 1.125rem / 1.61rem 'Nunito Sans', sans-serif;
+}
+
+.wrapper__block_two_info-user_form label {
+    font: 0.8rem / 1.33rem 'Nunito Sans', sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#userName, #userPhone, #userEmail {
+    background-color: rgba(19, 19, 19, 1);
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 5px 0 7px;
+    cursor: pointer;
+}
+
+#userName::-webkit-input-placeholder, 
+#userPhone::-webkit-input-placeholder, 
+#userEmail::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.87rem;
+}
+
+.wrapper__block_two_info-user_form label:not(:first-of-type) {
+    padding-top: 48px;
+}
+
+.wrapper__block_two_info-userData {
+    width: 286px;
+    height: 18px;
+    margin: 0 0 0 49px;
+    padding-top: 16px;
+    font-size: 0.87rem;
+    accent-color: rgba(227, 184, 115, 1);
+    cursor: pointer;
+}
+
+#callMesurer {
+    width: 213px;
+    height: 51px;
+    background-color: rgba(227, 184, 115, 1);
+    box-shadow: 0px 5px 15px 0px rgba(227, 184, 115, 0.15);
+    text-transform: uppercase;
+    border: none;
+    color: rgba(255, 255, 255, 1);
+    font: 0.8rem 'Nunito Sans', sans-serif;
+    margin: 39px 49px 27px 244px;
+}
+
+.wrapper__block_two_info_discount {
+    width: 441px;
+    max-height: 72px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 850px;
+    top: 665px;
 }
 
 
+.wrapper__block_two_info_discount_img {
+    width: 100px;
+    height: 100px;
+}
 
+.wrapper__block_two_info_discount_text {
+    font-size: 1.125rem;
+    line-height: 1.625rem;
+    color: rgba(227, 184, 115, 1);
+    padding-bottom: 7px;
+   
 
-
+}
 
 
 
