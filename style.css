@@ -690,7 +690,6 @@ body {
 
 .wrapper__block_two_samples_examples {
     width: 400px;
-    
     margin: 0 0 97.15px 99px;
     padding-top: 137.5px;
 }
@@ -831,6 +830,141 @@ body {
 .wrapper__block_two_lowe_background-right {
     right: 0;
 }
+
+
+/*_____block_three_________*/
+
+.wrapper__block_three {
+    width: 1440px;
+    height: 954px;
+    margin: 0 auto;
+    background: url(images/home/png/fon-bott-maps.png);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper__block_three::before {
+    content: " ";
+    position: absolute;
+    width: 1440px;
+    min-height: 954px;
+    top: 0;
+    z-index: -1;
+    background: linear-gradient(180deg, rgba(24, 24, 24, 0.9) 3.47%, rgba(24, 24, 24, 0.72) 100%);
+    ;
+}
+
+.wrapper__block_three_infoUser {
+    width: 883px;
+    height: 445px;
+    background: rgba(19, 19, 19, 1);
+    position: absolute;
+    top: -223px;
+    left: 288.7px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper__block_three_infoUser > span {
+    display: inline-block;
+    margin: 34.4px 313px 0;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 1);
+    font: 1.25rem 'Yeseva One', serif;
+}
+
+.wrapper__block_three_form {
+    width: 520px;
+    height: 138.8px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    row-gap: 48.76px;
+    margin: 45.84px auto 0;
+}
+
+.wrapper__block_three_form_label {
+    width: 231px;
+    height: 45px;
+    font-size: 0.8rem;
+    line-height: 1.3rem;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 0;
+}
+
+.wrapper__block_three_form_ipt {
+    width: 231px;
+    background-color: rgba(19, 19, 19, 1);
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 5px 0 7px;
+    cursor: pointer;
+
+}
+
+.wrapper__block_three_form_ipt::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 1);
+    font: 0.9rem / 1.4rem 'Nunito Sans', sans-serif;
+}
+
+#userQuestion {
+    width: 520px;
+}
+
+.wrapper__block_three_info-userData {
+    width: 285.62px;
+    margin: 46.46px 298px 0;
+    display: block;
+    color: rgba(255, 255, 255, 1);
+    font-size: 0.8rem;
+    line-height: 1.4rem;
+    accent-color: rgba(227, 184, 115, 1);
+}
+
+#callMesurer.wrapper__block_three_form_btn {
+    margin: 0;
+    margin-top: 46.46px;
+}
+
+.wrapper__block_three_text {
+    display: block;
+    margin-top: 275px;
+    margin-bottom: 26px;
+    text-align: center;
+    font: 1.25rem / 1.7rem 'Yeseva One', serif;
+    color: rgba(227, 184, 115, 1);
+}
+
+.wrapper__block_three_mail {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 43px;
+}
+
+.wrapper__block_three_img {
+    width: 925px;
+    height: 465px;
+}
+
+
+/*_____footer_____*/
+
+.footer {
+    width: 1440px;
+    height: 133px;
+    margin: 0 auto;
+    background-color: rgba(19, 19, 19, 1);
+    color: rgba(227, 184, 115, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font: 11px / 15px 'Nuniti Sans', sans-serif;
+}
+
+
 
 @media screen and (max-width: 375px) {
     body {
@@ -1078,9 +1212,10 @@ body {
         margin-left: 684px;
     }
 
-    .wrapper__block-one_content-four {
+    .wrapper__block-one_content-four,
+    .wrapper__block_two,
+    .wrapper__block_three,
+    .footer {
         display: none;
     }
-
-    
 }

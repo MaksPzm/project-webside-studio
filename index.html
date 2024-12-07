@@ -244,8 +244,7 @@
                         <input type="checkbox" name="name" id="userData">
                         I agree to the processing of personal data
                     </label>
-                    <button id="callMesurer" type="button">Call the measurer</button>
-                       
+                    <button id="callMesurer" type="button">Call the measurer</button>    
                 </div>
                 <div class="wrapper__block_two_info_discount">
                     <img class="wrapper__block_two_info_discount_img" onclick="#" src="images/home/svg/p$.svg" alt="копилка">
@@ -316,7 +315,50 @@
             <img class="wrapper__block_two_lowe_background-left lowe_background" src="images/home/png/fon-bott-left.png" alt="нижний фон">
             <img class="wrapper__block_two_lowe_background-right lowe_background" src="images/home/png/fon-bot.png" alt="нижний фон">
         </section>
+        <section class="wrapper__block_three">
+            <div class="wrapper__block_three_infoUser">
+                <span>have any questions?</span>
+                <form class="wrapper__block_three_form" action="index.html" method="post">
+                    <label class="wrapper__block_three_form_label" for="name">Name
+                        <input class="wrapper__block_three_form_ipt" type="text" id="userNameQ" name="name" placeholder="What is your name:">    
+                    </label>
+                    <label class="wrapper__block_three_form_label" for="phone">Phone
+                        <input class="wrapper__block_three_form_ipt" type="tel" id="userPhoneQ" placeholder="Your phone number:">
+                    </label>
+                     <label class="wrapper__block_three_form_label" for="name">Question
+                        <input class="wrapper__block_three_form_ipt" type="text" name="name" id="userQuestion" placeholder="I want to know:"> 
+                    </label>
+                </form>
+                <label class="wrapper__block_three_info-userData" for="userData">
+                    <input type="checkbox" name="name" id="userData">
+                    I agree to the processing of personal data
+                </label>
+                <button class="wrapper__block_three_form_btn" id="callMesurer" type="submit">SUBMIT</button>
+            </div>
+            <span class="wrapper__block_three_text">Rostov-on-Don, Nansen St., 239 Shopping Center
+                 <br>Decorum Tel +7 (928) 768 32 29
+            </span>
+            <div class="wrapper__block_three_mail">
+                <img src="images/home/svg/mail.svg" alt="почта">
+                <img src="images/home/svg/inst.svg" alt="инстаграмм">
+            </div>
+            <img class="wrapper__block_three_img" src="images/home/png/maps.png" alt="карта">
+        </section>
     </main>
-    
+    <footer class="footer">
+        <span class="footer__text header__text">IC "REPAIR DESIGN PROJECT"</span>
+        <nav class="footer__menu header__menu">
+            <ul class="footer__menu-list header__menu-list">
+                <li class="footer__menu_item header__menu_item"><a class="footer__menu_item_link header__menu_item_link header__menu_item_link-active" href="#">HOME</a></li>
+                <li class="footer__menu_item header__menu_item"><a class="footer__menu_item_link header__menu_item_link" href="#">PROJECTS</a></li>
+                <li class="footer__menu_item header__menu_item"><a class="footer__menu_item_link header__menu_item_link" href="#">MEASUREMENT</a></li>
+                <li class="footer__menu_item header__menu_item"><a class="footer__menu_item_link header__menu_item_link" href="#">TEAM</a></li>
+                <li class="footer__menu_item header__menu_item"><a class="footer__menu_item_link header__menu_item_link" href="#">REVIEWS</a></li>
+                <li class="footer__menu_item header__menu_item"><a class="footer__menu_item_link header__menu_item_link" href="#">CONTACTS</a></li>
+            </ul>
+        </nav>    
+        <span class="footer__text header__text">+7 (928) 768-32-39</span>
+        <button class="footer__btn header__btn" type="button">REQUEST A CALL</button>
+    </footer>
 </body>
 </html>
