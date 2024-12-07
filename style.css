@@ -1212,10 +1212,23 @@ body {
         margin-left: 684px;
     }
 
-    .wrapper__block-one_content-four,
-    .wrapper__block_two,
-    .wrapper__block_three,
     .footer {
-        display: none;
+        width: 2500px;
+        justify-content: center;
+    }
+
+    .footer__text:first-of-type {
+        margin-left: 642px;
+        margin-right: 105px;
+    }
+
+    .footer__btn {
+        margin-right: 602px;
+    }
+    
+    .footer__text:last-of-type {
+        margin-left: 75px;
+        margin-right: 45px;
+        text-decoration: underline;
     }
 }
