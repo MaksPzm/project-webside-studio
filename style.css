@@ -132,7 +132,8 @@ body {
     margin-right: 20px;
 }
 
-.wrapper__block-one_btn-left:hover {
+.wrapper__block-one_btn-left:hover,
+#callMesurer:hover {
     color: rgba(227, 184, 115, 1);
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid rgba(255, 255, 255, 1);
@@ -226,6 +227,7 @@ body {
     height: 9.57px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
 }
 
 .wrapper__block-one_content-two_elem1__description_arrow div:nth-of-type(2) {
@@ -236,10 +238,12 @@ body {
 
 .wrapper__left-arrow {
     margin-right: 29.5px;
+    cursor: pointer;
 }
 
 .wrapper__right-arrow {
     margin-left: 29.5px;
+    cursor: pointer;
 }
 
 
@@ -326,7 +330,10 @@ body {
     left: 311.45px;
     background: url(images/home/png/image\ 3.png) center center;
     background-size: 115% 140%;
-    
+}
+
+.wrapper__block-one_content-four_img {
+    cursor: pointer;
 }
 
 .wrapper__block-one_content-four_img-mobil {
@@ -652,6 +659,7 @@ body {
     color: rgba(255, 255, 255, 1);
     font: 0.8rem 'Nunito Sans', sans-serif;
     margin: 39px 49px 27px 244px;
+    cursor: pointer;
 }
 
 .wrapper__block_two_info_discount {
@@ -717,6 +725,10 @@ body {
     color: rgba(255, 255, 255, 1);
     font-size: 1.25rem;
     cursor: pointer;
+}
+
+.wrapper__block_two_samples_examples_link:hover {
+    color: rgba(227, 184, 115, 1);
 }
 
 .wrapper__block_two_samples_examples_link.active {
