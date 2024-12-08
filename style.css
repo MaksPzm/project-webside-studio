@@ -394,6 +394,7 @@ body {
     width: 200px;
     margin: 0;
     font-style: normal;
+    cursor: pointer;
 }
 
 .wrapper__block_two_form_checkbox {
@@ -831,6 +832,10 @@ body {
     right: 0;
 }
 
+.wrapper__block_two_samples_mobill-ver {
+    display: none;
+}
+
 
 /*_____block_three_________*/
 
@@ -1144,7 +1149,6 @@ body {
 
     .wrapper__block-one_on-conrol span {
         font: 22px / 30.49px 'Yeseva One', serif;
-        
     }
 
     .wrapper__block-one_on-conrol_img {
@@ -1168,7 +1172,215 @@ body {
     .wrapper__block-one_content-four_img-mobil {
         display: block;
     }
+
+    .wrapper__block_two {
+        width: 375px;
+        position: relative;
+    }
+    .wrapper__block_two::before {
+        content: "";
+        top: -40px;
+        width: 375px;
+        min-height: 535px;
+        position: absolute;
+        background: rgba(19, 19, 19, 1);
+        z-index: -1;
+    }
+
+    .wrapper__block_two_centr-f {
+        margin-top: 28px;
+        margin-bottom: 21.46px;
+    }
+
+    .wrapper__block_two_text {
+        width: 340px;
+        height: 107px;
+        font-size: 0.7rem;
+        line-height: 1.2rem;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .wrapper__block_two_form {
+        width: 340px;
+        height: 311px;
+        margin-top: 61px;
+        gap: 63px;
+    }
+
+    .wrapper__block_two_form_elem {
+        width: 340px;
+        height: 45px;
+    }
+
+    .wrapper__block_two_form_elem > label {
+        color: rgba(255, 255, 255, 0.5);
+    }
+
+    .wrapper__block_two_form_elem > input {
+        width: 340px;
+        background-color: rgba(19, 19, 19, 1);
+        border-bottom: 1px solid rgba(54, 54, 54, 0.3);
+    }
+
+    .wrapper__block_two_form_elem > input::-webkit-input-placeholder {
+        color: rgba(255, 255, 255, 1);
+    }   
+
+    .wrapper__block_two_form_btn {
+        font-size: 0.8rem;
+    }
+
+    .wrapper__block_two_form_checkbox {
+        position: absolute;
+        top: 335px;
+        left: 18px;
+        color: rgba(255, 255, 255, 1);
+    }
+
+    .block1__btn {
+        margin-top: 62px;
+    }
+
+    
+    
+    .wrapper__block_two_repair {
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+
+    
+    
+    .wrapper__block_two_offr {
+        width: 340px;
+        height: 1629px;
+        flex-direction: column;
+        margin-left: 18px;
+        margin-right: 17px;
+        gap: 79px;
+    }
+
+    .wrapper__block_two_offr_bloc {
+        width: 340px;
+        height: 484px;
+    }
+
+    .wrapper__block_two_offr_img {
+        width: 340px;
+        height: 365px;
+    }
+
+    .wrapper__block_two_offr_bloc-subBloc {
+        top: 200px;
+        left: -1px;
+    }
+
+    .wrapper__block_two_offr_bloc-subBloc_title {
+        font-size: 0.9rem;
+    }
+
+    .wrapper__block_two_offr_bloc_price {
+        top: 460px;
+        left: 0;
+    }
+
+    .wrapper__block_two_info,
+    .wrapper__block_two_samples,
+    .wrapper__block_two_clients-title.wrapper__block_two_repair,
+    .wrapper__block_two_client-feedback,
+    .lowe_background,
+    .wrapper__block_three,
+    .footer {
+        display: none;
+    }
+
+    .wrapper__block_two_samples_mobill-ver {
+        width: 340px;
+        display: block;
+        margin-top: 55px;
+        position: relative;
+    }
+
+    .wrapper__block_two_samples_mobill-ver::before {
+        content: "";
+        position: absolute;
+        top: 205px;
+        bottom: -49px;
+        width: 375px;
+        
+        background-color: rgba(19, 19, 19, 1);
+        z-index: -1;
+    }
+
+    .wrapper__block_two_samples_mobill_examples-heading {
+       font: 1.4rem / 1.9rem 'Yeseva One', serif;
+       color: rgba(227, 184, 115, 1); 
+       text-transform: uppercase;
+       text-align: center;
+    }
+
+    .wrapper__block_two_samples_mobill_photo {
+        width: 340px;
+        height: 242px;
+        margin: 24px 17px 0 18px;
+        position: relative;
+    }
+
+    .mobill_photo_st {
+        position: absolute;
+        top: 103px;
+        left: 14px;
+    }
+
+    .wrapper__block_two_samples_mobill_photo_st-right {
+        left: 291px;
+        right: 13px;
+    }
+
+    .wrapper__block_two_samples_mobill_title-h3 {
+        margin: 52px 0;
+        text-align: center;
+        font: 1.25rem / 1.7rem 'Yeseva One', serif;
+        color: rgba(255, 255, 255, 1);
+        text-transform: uppercase;
+    }
+
+    .checkbox_mobill {
+        top: 713px;
+    }
+
+    .mobill__form {
+        margin-left: 18px;
+    }
+
+    .mobill__form_elem > #userQuestion {
+        width: 340px;
+    }
+
+    .wrapper__block_two_samples_mobill_maps {
+        margin-top: 165px;
+    }
+
+    .wrapper__block_two_samples_mobill_form_btn {
+        width: 340px;
+    }
+
+    .wrapper__block_two_samples_mobill_sp {
+        width: 375px;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.125rem;
+        line-height: 1.5rem;
+    }
+
+    .wrapper__block_three_mail {
+        width: 375px;
+        display: flex;
+        justify-content: center;
+        margin-top: 23.65px;
+        margin-bottom: 49px;
+    }
 }
+
 
 
 
